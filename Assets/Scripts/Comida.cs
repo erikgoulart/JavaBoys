@@ -1,0 +1,14 @@
+using UnityEngine;
+
+public class Comida : MonoBehaviour
+{
+    [SerializeField]private int vidaParaDar;
+    private void OnTriggerEnter2D(Collider2D other)
+    {
+        if (other.gameObject.GetComponent<VidaDoJogador>() != null)
+        {
+            other.gameObject.GetComponent<VidaDoJogador>().GanharVida(vidaParaDar);
+            Destroy(this.gameObject);
+        }
+    }
+}

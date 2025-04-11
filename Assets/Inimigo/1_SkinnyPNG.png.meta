@@ -1,0 +1,693 @@
+fileFormatVersion: 2
+guid: b7beab4326a6c354da2fdfb9f87cdde0
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6955814035712809929
+    second: 1_SkinnyPNG_0
+  - first:
+      213: -9129833856002393629
+    second: 1_SkinnyPNG_1
+  - first:
+      213: -6446376825980967648
+    second: 1_SkinnyPNG_2
+  - first:
+      213: 9169456926744860927
+    second: 1_SkinnyPNG_3
+  - first:
+      213: 8728731314091797647
+    second: 1_SkinnyPNG_4
+  - first:
+      213: -2469964466519362765
+    second: 1_SkinnyPNG_5
+  - first:
+      213: -1787589204081582174
+    second: 1_SkinnyPNG_6
+  - first:
+      213: -4658696554751648729
+    second: 1_SkinnyPNG_7
+  - first:
+      213: 194916048801141703
+    second: 1_SkinnyPNG_8
+  - first:
+      213: -8375635574135513715
+    second: 1_SkinnyPNG_9
+  - first:
+      213: 4508849660795904927
+    second: 1_SkinnyPNG_10
+  - first:
+      213: 8058558305909241006
+    second: 1_SkinnyPNG_11
+  - first:
+      213: -7833581207103854930
+    second: 1_SkinnyPNG_12
+  - first:
+      213: 5376881675276981413
+    second: 1_SkinnyPNG_13
+  - first:
+      213: -2461142162929025421
+    second: 1_SkinnyPNG_14
+  - first:
+      213: 3689478798736951316
+    second: 1_SkinnyPNG_15
+  - first:
+      213: 8487148663559560643
+    second: 1_SkinnyPNG_16
+  - first:
+      213: -1272387210028283959
+    second: 1_SkinnyPNG_17
+  - first:
+      213: -3383493564952991604
+    second: 1_SkinnyPNG_18
+  - first:
+      213: 6187957512628901875
+    second: 1_SkinnyPNG_19
+  - first:
+      213: -2769876375003295748
+    second: 1_SkinnyPNG_20
+  - first:
+      213: 2986379588618531664
+    second: 1_SkinnyPNG_21
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: 1_SkinnyPNG_0
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 698
+        width: 158
+        height: 237
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9cb96521304088060800000000000000
+      internalID: 6955814035712809929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1_SkinnyPNG_1
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 698
+        width: 153
+        height: 231
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e974aada705c4180800000000000000
+      internalID: -9129833856002393629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1_SkinnyPNG_2
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 695
+        width: 161
+        height: 238
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 025281f5e6ed986a0800000000000000
+      internalID: -6446376825980967648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1_SkinnyPNG_3
+      rect:
+        serializedVersion: 2
+        x: 536
+        y: 696
+        width: 173
+        height: 237
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff85fd53e74704f70800000000000000
+      internalID: 9169456926744860927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1_SkinnyPNG_4
+      rect:
+        serializedVersion: 2
+        x: 738
+        y: 694
+        width: 159
+        height: 237
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8c254422eea22970800000000000000
+      internalID: 8728731314091797647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1_SkinnyPNG_5
+      rect:
+        serializedVersion: 2
+        x: 948
+        y: 695
+        width: 153
+        height: 241
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 333b645776ce8bdd0800000000000000
+      internalID: -2469964466519362765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1_SkinnyPNG_6
+      rect:
+        serializedVersion: 2
+        x: 1184
+        y: 738
+        width: 24
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2afd46607153137e0800000000000000
+      internalID: -1787589204081582174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1_SkinnyPNG_7
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 453
+        width: 183
+        height: 228
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72c11b19a2cf85fb0800000000000000
+      internalID: -4658696554751648729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1_SkinnyPNG_8
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 454
+        width: 184
+        height: 225
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c390d91d1b74b200800000000000000
+      internalID: 194916048801141703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1_SkinnyPNG_9
+      rect:
+        serializedVersion: 2
+        x: 579
+        y: 366
+        width: 155
+        height: 218
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8d178342d3c3cb80800000000000000
+      internalID: -8375635574135513715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1_SkinnyPNG_10
+      rect:
+        serializedVersion: 2
+        x: 743
+        y: 366
+        width: 142
+        height: 216
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f936169a0e6a29e30800000000000000
+      internalID: 4508849660795904927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1_SkinnyPNG_11
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 380
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea47e794510c5df60800000000000000
+      internalID: 8058558305909241006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1_SkinnyPNG_12
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 376
+        width: 14
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea6266f6567894390800000000000000
+      internalID: -7833581207103854930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1_SkinnyPNG_13
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 365
+        width: 50
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a4113e45658e9a40800000000000000
+      internalID: 5376881675276981413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1_SkinnyPNG_14
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 19
+        width: 161
+        height: 220
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37ef0e41e3448ddd0800000000000000
+      internalID: -2461142162929025421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1_SkinnyPNG_15
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 25
+        width: 242
+        height: 214
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4180d057b69a33330800000000000000
+      internalID: 3689478798736951316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1_SkinnyPNG_16
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 25
+        width: 232
+        height: 225
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3cd166f1eb868c570800000000000000
+      internalID: 8487148663559560643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1_SkinnyPNG_17
+      rect:
+        serializedVersion: 2
+        x: 661
+        y: 31
+        width: 201
+        height: 228
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c78389e292975ee0800000000000000
+      internalID: -1272387210028283959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1_SkinnyPNG_18
+      rect:
+        serializedVersion: 2
+        x: 875
+        y: 37
+        width: 171
+        height: 227
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c882829778a6b01d0800000000000000
+      internalID: -3383493564952991604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1_SkinnyPNG_19
+      rect:
+        serializedVersion: 2
+        x: 1049
+        y: 38
+        width: 238
+        height: 230
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f79471929a00e550800000000000000
+      internalID: 6187957512628901875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1_SkinnyPNG_20
+      rect:
+        serializedVersion: 2
+        x: 1299
+        y: 43
+        width: 231
+        height: 231
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cff8e24cc1c6f89d0800000000000000
+      internalID: -2769876375003295748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1_SkinnyPNG_21
+      rect:
+        serializedVersion: 2
+        x: 1535
+        y: 55
+        width: 163
+        height: 230
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 053b510d960c17920800000000000000
+      internalID: 2986379588618531664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable: {}
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
