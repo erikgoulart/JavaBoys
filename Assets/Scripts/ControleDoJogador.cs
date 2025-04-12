@@ -32,18 +32,25 @@ public class ControleDoJogador : MonoBehaviour
 
     private void Update()
     {
-        RodarConotrometroDosAtaques();
-
-        if(!levouDano)
+        if(GetComponent<VidaDoJogador>().jogadorVivo)
         {
-            ReceberInputs();
-            RodarAnimacoesEAtaques();
-            EspelharJogador();
-            MovimentarJogador();
+            RodarConotrometroDosAtaques();
+
+            if(!levouDano)
+            {
+                ReceberInputs();
+                RodarAnimacoesEAtaques();
+                EspelharJogador();
+                MovimentarJogador();
+            }
+            else
+            {
+                RodarCronomentroDoDano();
+            }
         }
         else
         {
-            RodarCronomentroDoDano();
+            RodarAnimacaoDeDerrota();
         }
     }
 
@@ -138,5 +145,10 @@ private void EspelharJogador()
         levouDano = true;
 
         oRigidbody2D.linearVelocity = Vector2.zero;
+    }
+
+    public void RodarAnimacaoDeDerrota()
+    {
+        oAnimator.Play("jogadormorrendo");
     }
 }

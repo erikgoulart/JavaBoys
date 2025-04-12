@@ -1,3 +1,4 @@
+using System.Collections;
 using System.Diagnostics;
 using UnityEngine;
 
@@ -5,6 +6,9 @@ public class VidaDoJogador : MonoBehaviour
 {
     [Header ("Verificações")]
     public bool jogadorVivo;
+
+    [Header("Parametros")]
+    [SerializeField] private float tempoParaGameOver;
 
     [Header ("Controle de Vida")]
     [SerializeField] private int vidaMaxima;
@@ -15,6 +19,8 @@ public class VidaDoJogador : MonoBehaviour
         //Configura a vida do Jogador
         jogadorVivo = true;
         vidaAtual = vidaMaxima;
+
+        UIManager.instance.AtualizarBarraDevidaDoJogador(vidaMaxima, vidaAtual);
     }
 
     public void GanharVida(int vidaParaGanhar)
@@ -29,6 +35,8 @@ public class VidaDoJogador : MonoBehaviour
             //roda se a vida atual somada com a vida para ganhar superar o limite
             vidaAtual = vidaMaxima;
         }
+
+        UIManager.instance.AtualizarBarraDevidaDoJogador(vidaMaxima,vidaAtual);    
     }
 
     public void LevarDano(int danoParaReceber)
@@ -39,12 +47,22 @@ public class VidaDoJogador : MonoBehaviour
             vidaAtual -= danoParaReceber;
 
             GetComponent<ControleDoJogador>().RodarAnimacaoDeDano();
+            UIManager.instance.AtualizarBarraDevidaDoJogador(vidaMaxima, vidaAtual);
 
             if(vidaAtual <= 0)
             {
                 jogadorVivo = false;
-                UnityEngine.Debug.Log("Game Over");
+                GetComponent<ControleDoJogador>().RodarAnimacaoDeDano();
+                StartCoroutine(AtivarGameOver());
             }
         }
+    }
+
+    private IEnumerator AtivarGameOver()
+    {
+        UnityEngine.Debug.Log("Esperando para mostrar Game Over...");
+        yield return new WaitForSeconds(tempoParaGameOver);
+        UnityEngine.Debug.Log("Mostrando Game Over!");
+        UIManager.instance.AtivarPainelDeGameOver();
     }
 }

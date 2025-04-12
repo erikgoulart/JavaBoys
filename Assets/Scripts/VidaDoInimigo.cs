@@ -8,6 +8,9 @@ public class VidaDoInimigo : MonoBehaviour
     [Header ("Verificações")]
     public bool inimigoVivo;
 
+    [Header ("Parametros")]
+    [SerializeField] private string nomeDoInimigo;
+
     [Header ("Controle de Vida")]
     [SerializeField] private int vidaMaxima;
     private int vidaAtual;
@@ -23,29 +26,24 @@ public class VidaDoInimigo : MonoBehaviour
         vidaAtual =  vidaMaxima;
     }
 
-
-
-public void LevarDano(int danoParaReceber)
-{
-
-    vidaAtual -= danoParaReceber;
-    GetComponent<EnemyControl>().RodarAnimacaoDeDano();
-
-    if (vidaAtual <= 0)
+    public void LevarDano(int danoParaReceber)
     {
-        inimigoVivo = false;
-        GetComponent<EnemyControl>().RodarAnimacaoDeDerrota();
-        SpawnarComida();
-        Destroy(gameObject, tempoParaSumir);
-    }
 
-/*if (vidaAtual <= 0)
-{
-    inimigoVivo = false;
-    // Apenas sinaliza que morreu
-    Destroy(gameObject, tempoParaSumir);
-}*/
-}
+        vidaAtual -= danoParaReceber;
+        GetComponent<EnemyControl>().RodarAnimacaoDeDano();
+        UIManager.instance.AtualizarBarraDeVidaInimigoAtual(vidaMaxima, vidaAtual,nomeDoInimigo);
+
+        if (vidaAtual <= 0)
+        {
+            inimigoVivo = false;
+            GetComponent<EnemyControl>().RodarAnimacaoDeDerrota();
+            SpawnarComida();
+            UIManager.instance.DesativarPainelDoInimigo();
+
+            Destroy(gameObject, tempoParaSumir);
+        }
+
+    }
 
     private void SpawnarComida()
     {
@@ -56,7 +54,6 @@ public void LevarDano(int danoParaReceber)
     {
         GameObject comidaEscolhida = comidasParaDropar[UnityEngine.Random.Range(0, comidasParaDropar.Length)];
         Instantiate(comidaEscolhida, transform.position, transform.rotation);
-        Debug.Log("Comida instanciada: " + comidaEscolhida.name);
     }
     }
 
