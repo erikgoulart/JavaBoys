@@ -1,3 +1,4 @@
+using System;
 using UnityEngine;
 using UnityEngine.Rendering;
 using UnityEngine.UIElements;
@@ -138,14 +139,14 @@ private void EspelharJogador()
         }
         else
         {
-        // Movimenta o Jogador com basse na sua direção
+            // Movimenta o Jogador com basse na sua direção
             direcaoDoMovimento = inputDeMovimento.normalized;
             oRigidbody2D.linearVelocity = direcaoDoMovimento * 
             velocidadeDoJogador;
-
+            // Limita o x
             oRigidbody2D.position = new Vector2(Mathf.Clamp(oRigidbody2D.position.x, xMinimo, xMaximo), oRigidbody2D.position.y);
+            // Limita o Y
             oRigidbody2D.position = new Vector2(oRigidbody2D.position.x, Mathf.Clamp(oRigidbody2D.position.y, yMinimo, yMaximo));
-                        
         }
     }
 
