@@ -1,5 +1,6 @@
 using UnityEngine;
 using UnityEngine.Rendering;
+using UnityEngine.UIElements;
 
 public class ControleDoJogador : MonoBehaviour
 {
@@ -11,6 +12,12 @@ public class ControleDoJogador : MonoBehaviour
     [SerializeField]private float velocidadeDoJogador;
     private Vector2 inputDeMovimento;
     private Vector2 direcaoDoMovimento;
+
+    [Header ("Limites de Movimentação")]
+    [SerializeField] private float xMinimo;
+    [SerializeField] private float xMaximo;
+    [SerializeField] private float yMinimo;
+    [SerializeField] private float yMaximo;
 
     [Header ("Controle do Ataque")]
     [SerializeField] private float tempoMaximoEntreAtaques;
@@ -29,6 +36,7 @@ public class ControleDoJogador : MonoBehaviour
 
        tempoAtualDoDano = tempoMaximoDoDano;
     }
+
 
     private void Update()
     {
@@ -122,7 +130,6 @@ private void EspelharJogador()
     }
 
 }
-
     private void MovimentarJogador()
     {
         if(levouDano)
@@ -135,6 +142,10 @@ private void EspelharJogador()
             direcaoDoMovimento = inputDeMovimento.normalized;
             oRigidbody2D.linearVelocity = direcaoDoMovimento * 
             velocidadeDoJogador;
+
+            oRigidbody2D.position = new Vector2(Mathf.Clamp(oRigidbody2D.position.x, xMinimo, xMaximo), oRigidbody2D.position.y);
+            oRigidbody2D.position = new Vector2(oRigidbody2D.position.x, Mathf.Clamp(oRigidbody2D.position.y, yMinimo, yMaximo));
+                        
         }
     }
 
