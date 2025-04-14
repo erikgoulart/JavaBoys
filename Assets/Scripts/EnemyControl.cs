@@ -28,22 +28,6 @@ public class EnemyControl : MonoBehaviour
         oJogador = FindAnyObjectByType<ControleDoJogador>().gameObject;
     }
 
- /*   private void Update()
-{
-    var vida = GetComponent<VidaDoInimigo>();
-
-    if (inimigoMorto) return;
-
-    if (!vida.inimigoVivo)
-    {
-        RodarAnimacaoDeDerrota();
-        return;
-    }
-
-    RodarCronometroDosAtaques();
-    SeguirJogador();
-    EspelharInimigo();
-}*/
     private void Update()
     {
         if (inimigoMorto) return; // <- Impede que "parado", "apanhando" ou "voadora" sejam chamadas
@@ -116,21 +100,7 @@ public class EnemyControl : MonoBehaviour
         {
             oAnimator.SetTrigger("socando");
         }
-        /*else if (ataqueAtualDoInimigo != 0)
-        {
-            oAnimator.SetTrigger("voadora");
-        }*/
-        /*Testar com o Boss
-        switch (ataqueAtualDoInimigo)
-        {
-            case 0:
-            oAnimator.SetTrigger("socando");
-            break;
-
-            case 1:
-            oAnimator.SetTrigger("voadora");
-            break;        
-        }*/
+        
         podeAtacar = false;
     }
 
