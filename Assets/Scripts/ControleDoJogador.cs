@@ -115,6 +115,7 @@ private void RodarAnimacoesEAtaques()
     {
         oAnimator.SetTrigger("socando");
         podeAtacar = false;
+        SoundManager.instance.impactoSoco.Play();
     }
 }
 

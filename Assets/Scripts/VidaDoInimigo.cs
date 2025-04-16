@@ -32,6 +32,7 @@ public class VidaDoInimigo : MonoBehaviour
         vidaAtual -= danoParaReceber;
         GetComponent<EnemyControl>().RodarAnimacaoDeDano();
         UIManager.instance.AtualizarBarraDeVidaInimigoAtual(vidaMaxima, vidaAtual,nomeDoInimigo);
+        SoundManager.instance.inimigoNerdLevandoDano.Play();
 
         if (vidaAtual <= 0)
         {

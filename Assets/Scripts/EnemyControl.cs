@@ -115,8 +115,6 @@ public class EnemyControl : MonoBehaviour
 
         inimigoMorto = true;
 
-        Debug.Log("Rodando animação de morte");
-
         oRigidbody2D.linearVelocity = Vector2.zero;
         oRigidbody2D.bodyType = RigidbodyType2D.Kinematic;
         oRigidbody2D.simulated = false;

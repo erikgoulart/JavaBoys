@@ -48,6 +48,7 @@ public class VidaDoJogador : MonoBehaviour
 
             GetComponent<ControleDoJogador>().RodarAnimacaoDeDano();
             UIManager.instance.AtualizarBarraDevidaDoJogador(vidaMaxima, vidaAtual);
+            SoundManager.instance.jogadorLevandoDano.Play();
 
             if(vidaAtual <= 0)
             {
@@ -60,7 +61,6 @@ public class VidaDoJogador : MonoBehaviour
 
     private IEnumerator AtivarGameOver()
     {
-        UnityEngine.Debug.Log("Esperando para mostrar Game Over...");
         yield return new WaitForSeconds(tempoParaGameOver);
         UnityEngine.Debug.Log("Mostrando Game Over!");
         UIManager.instance.AtivarPainelDeGameOver();
