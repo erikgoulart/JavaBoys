@@ -93,6 +93,10 @@ public class EnemyControl : MonoBehaviour
         }
     }
 
+    public void RodarAnimacaoDeDano()
+    {
+        oAnimator.SetTrigger("apanhando");
+    }
     private void IniciarAtaque()
     {
         // Muda o seu ataque para o ataque sorteado
@@ -100,13 +104,11 @@ public class EnemyControl : MonoBehaviour
         {
             oAnimator.SetTrigger("socando");
         }
+        else if (ataqueAtualDoInimigo != 0)
+        {
+            oAnimator.SetTrigger("voadora");
+        }
         
-        podeAtacar = false;
-    }
-
-    public void RodarAnimacaoDeDano()
-    {
-        oAnimator.SetTrigger("apanhando");
     }
 
  public void RodarAnimacaoDeDerrota()
@@ -123,6 +125,7 @@ public class EnemyControl : MonoBehaviour
         oAnimator.ResetTrigger("socando");
         oAnimator.ResetTrigger("apanhando");
         oAnimator.ResetTrigger("Andando");
+        oAnimator.ResetTrigger("voadora");
 
         oAnimator.Play("morte");
 

@@ -30,6 +30,12 @@ public class ControleDoJogador : MonoBehaviour
     private float tempoAtualDoDano;
     private bool levouDano;
 
+    private int numeroDeSocos = 0;
+    private bool estaNaJanelaDeCombo = false;
+    private float tempoCombo = 0.5f; // tempo pra apertar o segundo soco
+    private float cronometroCombo = 0f;
+    private bool estaAtacando = false;
+
     private void Start()
     {
        oRigidbody2D = GetComponent<Rigidbody2D>();
@@ -43,8 +49,25 @@ public class ControleDoJogador : MonoBehaviour
     {
         if(GetComponent<VidaDoJogador>().jogadorVivo)
         {
-            RodarConotrometroDosAtaques();
+            if (inputDeMovimento.magnitude == 0)
+            {
+                oAnimator.ResetTrigger("socando");
+                oAnimator.ResetTrigger("socando2");
+                oAnimator.SetTrigger("parado");
+            }
 
+            RodarConotrometroDosAtaques();
+            if (estaNaJanelaDeCombo)
+            {
+                cronometroCombo -= Time.deltaTime;
+
+                if (cronometroCombo <= 0f)
+                {
+                    estaNaJanelaDeCombo = false;
+                    numeroDeSocos = 0;
+                    podeAtacar = false;
+                }
+            }
             if(!levouDano)
             {
                 ReceberInputs();
@@ -110,13 +133,37 @@ private void RodarAnimacoesEAtaques()
         oAnimator.SetTrigger("andando");
     }
 
-    //Roda as animacoes de soco
     if (Input.GetKeyDown(KeyCode.J) && podeAtacar)
     {
-        oAnimator.SetTrigger("socando");
-        podeAtacar = false;
-        SoundManager.instance.impactoSoco.Play();
+        numeroDeSocos++;
+
+        if (numeroDeSocos == 1)
+        {
+            oAnimator.ResetTrigger("socando2"); // limpa o outro trigger antes
+            oAnimator.SetTrigger("socando");
+            estaAtacando = true;
+            SoundManager.instance.impactoSoco.Play();
+            estaNaJanelaDeCombo = true;
+            cronometroCombo = tempoCombo;
+        }
+        else if (numeroDeSocos == 2 && estaNaJanelaDeCombo)
+        {
+            oAnimator.ResetTrigger("socando"); // limpa o trigger anterior
+            oAnimator.SetTrigger("socando2");
+            estaAtacando = true;
+            SoundManager.instance.impactoSoco.Play();
+            estaNaJanelaDeCombo = false;
+            numeroDeSocos = 0;
+            podeAtacar = false;
+        }
     }
+}
+
+public void FinalizarAtaque()
+{
+    estaAtacando = false;
+    oAnimator.ResetTrigger("socando");
+    oAnimator.ResetTrigger("socando2");
 }
 
 private void EspelharJogador()
