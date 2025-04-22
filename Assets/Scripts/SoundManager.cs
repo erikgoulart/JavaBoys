@@ -14,6 +14,7 @@ public class SoundManager : MonoBehaviour
 
     [Header("Músicas")]
     [SerializeField] private AudioSource musicaDoMenu;
+    [SerializeField] private AudioSource musicaDaCutscene;
     [SerializeField] private AudioSource musicaDeFundo1;
     [SerializeField] private AudioSource musicaDeFundo2;
     [SerializeField] private AudioSource musicaDeGameOver;
@@ -53,6 +54,7 @@ public class SoundManager : MonoBehaviour
     private void PararTodasAsMusicas()
     {
         musicaDoMenu.Stop();
+        musicaDaCutscene.Stop();
         musicaDeFundo1.Stop();
         musicaDeFundo2.Stop();
         musicaDeGameOver.Stop();
@@ -68,6 +70,10 @@ public class SoundManager : MonoBehaviour
         {
             case "Menu": // <-- substitua pelo nome exato da sua cena do menu
                 musicaDoMenu.Play();
+                break;
+
+            case "Cutscene":
+                musicaDaCutscene.Play();
                 break;
 
             case "Fase01":

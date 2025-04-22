@@ -260,7 +260,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d0337eb9eeedad442855e7a56e1071d0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nomeDaPrimeiraFase: Fase01
+  nomeDaPrimeiraFase: Cutscene
 --- !u!1 &194886598
 GameObject:
   m_ObjectHideFlags: 0
@@ -1470,6 +1470,10 @@ PrefabInstance:
       propertyPath: musicaDeFundo2
       value: 
       objectReference: {fileID: 1452413724}
+    - target: {fileID: 9125175658181017105, guid: 1f64d3bf5da578747941a1011624cdc3, type: 3}
+      propertyPath: musicaDaCutscene
+      value: 
+      objectReference: {fileID: 3624878053240031237, guid: 699a322a12650c64e824a720a30b1705, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
