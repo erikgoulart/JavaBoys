@@ -6,6 +6,9 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Scenes/Atencao.unity
+    guid: 1fa9130da970ed344bcfb3645a31b27f
+  - enabled: 1
     path: Assets/Scenes/UniGames.unity
     guid: 4466ec9816c39584f9fa15e9a050d68f
   - enabled: 1
