@@ -104,7 +104,7 @@ public class EnemyControl : MonoBehaviour
         {
             oAnimator.SetTrigger("socando");
         }
-        else if (ataqueAtualDoInimigo != 0)
+        else if (ataqueAtualDoInimigo == 1)
         {
             oAnimator.SetTrigger("voadora");
         }

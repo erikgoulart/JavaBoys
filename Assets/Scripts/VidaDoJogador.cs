@@ -48,7 +48,6 @@ public class VidaDoJogador : MonoBehaviour
 
             GetComponent<ControleDoJogador>().RodarAnimacaoDeDano();
             UIManager.instance.AtualizarBarraDevidaDoJogador(vidaMaxima, vidaAtual);
-            SoundManager.instance.jogadorLevandoDano.Play();
 
             if(vidaAtual <= 0)
             {

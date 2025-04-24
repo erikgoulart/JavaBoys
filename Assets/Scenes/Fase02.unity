@@ -14265,6 +14265,7 @@ MonoBehaviour:
   tempoParaSumir: 5
   chanceDeDroparComida: 0
   comidasParaDropar: []
+  inimigoLevandoDano: {fileID: 0}
 --- !u!114 &553360991
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14278,8 +14279,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   velocidadeDoInimigo: 2
-  tempoMaximoEntreAtaques: 2
-  distanciaParaAtacar: 1
+  tempoMaximoEntreAtaques: 3
+  distanciaParaAtacar: 2
   quantidadeDeAtaquesDoInimigo: 2
 --- !u!95 &553360992
 Animator:
@@ -14354,8 +14355,8 @@ CapsuleCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0, y: 0}
-  m_Size: {x: 2.5, y: 5}
+  m_Offset: {x: -0.09587884, y: 0}
+  m_Size: {x: 2.6917577, y: 5}
   m_Direction: 0
 --- !u!50 &553360995
 Rigidbody2D:
@@ -14509,7 +14510,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 660850179}
-  - component: {fileID: 660850180}
   m_Layer: 0
   m_Name: ColisorDeAtaque
   m_TagString: Untagged
@@ -14534,19 +14534,6 @@ Transform:
   - {fileID: 1261358589}
   m_Father: {fileID: 553360993}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &660850180
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 660850178}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 28fbd1a043154ef4fb50f446df765550, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  danoDoGolpe: 0
 --- !u!1 &695317495
 GameObject:
   m_ObjectHideFlags: 0
@@ -22179,8 +22166,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1261358589}
-  - component: {fileID: 1261358591}
   - component: {fileID: 1261358590}
+  - component: {fileID: 1261358591}
   m_Layer: 0
   m_Name: ColisorVoadora
   m_TagString: Untagged
@@ -22197,7 +22184,7 @@ Transform:
   m_GameObject: {fileID: 1261358588}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 1.52, y: 0.13, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -22215,7 +22202,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 28fbd1a043154ef4fb50f446df765550, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  danoDoGolpe: 0
+  danoDoGolpe: 3
+  impactoSocoPrefab: {fileID: 0}
 --- !u!61 &1261358591
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -22223,7 +22211,7 @@ BoxCollider2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1261358588}
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 3
   m_Density: 1
   m_Material: {fileID: 0}
@@ -22246,11 +22234,11 @@ BoxCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: -0.17139554, y: 0.05412495}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -22260,7 +22248,7 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 1.4149575, y: 1.3969159}
   m_EdgeRadius: 0
 --- !u!1 &1283454422
 GameObject:
@@ -25761,8 +25749,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1647215926}
-  - component: {fileID: 1647215928}
   - component: {fileID: 1647215927}
+  - component: {fileID: 1647215928}
   m_Layer: 0
   m_Name: ColisorDoSoco
   m_TagString: Untagged
@@ -25779,7 +25767,7 @@ Transform:
   m_GameObject: {fileID: 1647215925}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 1.6, y: 0.64, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -25797,7 +25785,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 28fbd1a043154ef4fb50f446df765550, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  danoDoGolpe: 0
+  danoDoGolpe: 2
+  impactoSocoPrefab: {fileID: 0}
 --- !u!61 &1647215928
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -25805,7 +25794,7 @@ BoxCollider2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1647215925}
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 3
   m_Density: 1
   m_Material: {fileID: 0}
@@ -25828,7 +25817,7 @@ BoxCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
@@ -26364,6 +26353,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   danoDoGolpe: 1
+  impactoSocoPrefab: {fileID: 0}
 --- !u!1 &1961050484
 GameObject:
   m_ObjectHideFlags: 0

@@ -6,10 +6,7 @@ public class SoundManager : MonoBehaviour
     public static SoundManager instance;
 
     [Header("Efeitos Sonoros")]
-    public AudioSource impactoSoco;
     public AudioSource pegarComida;
-    public AudioSource inimigoNerdLevandoDano;
-    public AudioSource inimigoEmoLevandoDano;
     public AudioSource jogadorLevandoDano;
 
     [Header("Músicas")]

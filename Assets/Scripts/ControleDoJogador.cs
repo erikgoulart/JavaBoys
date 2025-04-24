@@ -142,7 +142,6 @@ private void RodarAnimacoesEAtaques()
             oAnimator.ResetTrigger("socando2"); // limpa o outro trigger antes
             oAnimator.SetTrigger("socando");
             estaAtacando = true;
-            SoundManager.instance.impactoSoco.Play();
             estaNaJanelaDeCombo = true;
             cronometroCombo = tempoCombo;
         }
@@ -151,7 +150,6 @@ private void RodarAnimacoesEAtaques()
             oAnimator.ResetTrigger("socando"); // limpa o trigger anterior
             oAnimator.SetTrigger("socando2");
             estaAtacando = true;
-            SoundManager.instance.impactoSoco.Play();
             estaNaJanelaDeCombo = false;
             numeroDeSocos = 0;
             podeAtacar = false;

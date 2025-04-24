@@ -17805,6 +17805,11 @@ Tilemap:
     e31: 0
     e32: 0
     e33: 1
+--- !u!82 &257865123 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 8464118974073883217, guid: b398c2a1c1b0c4842a7b58c9e619d835, type: 3}
+  m_PrefabInstance: {fileID: 907383626}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &369804475
 GameObject:
   m_ObjectHideFlags: 0
@@ -18408,7 +18413,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   xMinimo: 0
-  xMaximo: 162
+  xMaximo: 161
 --- !u!1 &619394800
 GameObject:
   m_ObjectHideFlags: 0
@@ -18943,6 +18948,75 @@ Transform:
   - {fileID: 1847910381}
   m_Father: {fileID: 1469659702}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &907383626
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 403570366254723984, guid: b398c2a1c1b0c4842a7b58c9e619d835, type: 3}
+      propertyPath: m_Name
+      value: dano-nerd
+      objectReference: {fileID: 0}
+    - target: {fileID: 3819978016152093876, guid: b398c2a1c1b0c4842a7b58c9e619d835, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3819978016152093876, guid: b398c2a1c1b0c4842a7b58c9e619d835, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3819978016152093876, guid: b398c2a1c1b0c4842a7b58c9e619d835, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3819978016152093876, guid: b398c2a1c1b0c4842a7b58c9e619d835, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3819978016152093876, guid: b398c2a1c1b0c4842a7b58c9e619d835, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3819978016152093876, guid: b398c2a1c1b0c4842a7b58c9e619d835, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3819978016152093876, guid: b398c2a1c1b0c4842a7b58c9e619d835, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3819978016152093876, guid: b398c2a1c1b0c4842a7b58c9e619d835, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3819978016152093876, guid: b398c2a1c1b0c4842a7b58c9e619d835, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3819978016152093876, guid: b398c2a1c1b0c4842a7b58c9e619d835, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3819978016152093876, guid: b398c2a1c1b0c4842a7b58c9e619d835, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3819978016152093876, guid: b398c2a1c1b0c4842a7b58c9e619d835, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3819978016152093876, guid: b398c2a1c1b0c4842a7b58c9e619d835, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: b398c2a1c1b0c4842a7b58c9e619d835, type: 3}
 --- !u!1 &937701711
 GameObject:
   m_ObjectHideFlags: 0
@@ -19321,7 +19395,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 23518d39e3acc3747bce7487098766e3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  velocidadeDoJogador: 5
+  velocidadeDoJogador: 50
   xMinimo: -7.5
   xMaximo: 168
   yMinimo: -3.12
@@ -20064,6 +20138,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   danoDoGolpe: 1
+  impactoSocoPrefab: {fileID: 2789227813885850401, guid: 3a85729a05994e54a8f1a4a5445fc772, type: 3}
 --- !u!114 &1951327988
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -21553,7 +21628,7 @@ Transform:
   m_GameObject: {fileID: 1961050484}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 171.2, y: 0, z: 0}
+  m_LocalPosition: {x: 167, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -29800,6 +29875,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 923569051874794719, guid: 32ba5445f0316d645b663f16af759f2c, type: 3}
+      propertyPath: impactoSoco
+      value: 
+      objectReference: {fileID: 1205009576173569425, guid: 47ae06937100b6c41afc3f399e94036e, type: 3}
     - target: {fileID: 2144223513650899575, guid: 32ba5445f0316d645b663f16af759f2c, type: 3}
       propertyPath: m_LocalPosition.x
       value: 2.7
@@ -29852,6 +29931,10 @@ PrefabInstance:
       propertyPath: vidaMaxima
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 7577035344072701633, guid: 32ba5445f0316d645b663f16af759f2c, type: 3}
+      propertyPath: inimigoLevandoDano
+      value: 
+      objectReference: {fileID: 8464118974073883217, guid: b398c2a1c1b0c4842a7b58c9e619d835, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -29938,6 +30021,14 @@ PrefabInstance:
       propertyPath: vidaMaxima
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1730961586842782144, guid: 89975f9bec5ecfe44875b99d4fc86f3b, type: 3}
+      propertyPath: inimigoLevandoDano
+      value: 
+      objectReference: {fileID: 257865123}
+    - target: {fileID: 2234339340562519807, guid: 89975f9bec5ecfe44875b99d4fc86f3b, type: 3}
+      propertyPath: impactoSoco
+      value: 
+      objectReference: {fileID: 4135277618007219747, guid: 3a85729a05994e54a8f1a4a5445fc772, type: 3}
     - target: {fileID: 2498030689713597683, guid: 89975f9bec5ecfe44875b99d4fc86f3b, type: 3}
       propertyPath: m_Name
       value: Inimigo-Nerd
@@ -30009,3 +30100,4 @@ SceneRoots:
   - {fileID: 3398832492544171794}
   - {fileID: 6640645331608436991}
   - {fileID: 1961050487}
+  - {fileID: 907383626}

@@ -93,6 +93,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   vidaParaDar: 2
+  somDeColetaPrefab: {fileID: 8638775331352481954, guid: 4308307ef30e0834997e9d3189e7a0e4, type: 3}
 --- !u!1 &6332120798692390260
 GameObject:
   m_ObjectHideFlags: 0

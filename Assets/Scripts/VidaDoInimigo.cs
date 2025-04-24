@@ -1,4 +1,5 @@
 using System;
+using NUnit.Framework.Constraints;
 using UnityEngine;
 using UnityEngine.Rendering;
 
@@ -19,6 +20,9 @@ public class VidaDoInimigo : MonoBehaviour
     [SerializeField] private int chanceDeDroparComida;
     [SerializeField] private GameObject[] comidasParaDropar;
 
+    [Header ("Som do Inimigo")]
+    [SerializeField] public AudioSource inimigoLevandoDano;
+
     private void Start()
     {
         //Configura a vida do Inimigo
@@ -32,7 +36,7 @@ public class VidaDoInimigo : MonoBehaviour
         vidaAtual -= danoParaReceber;
         GetComponent<EnemyControl>().RodarAnimacaoDeDano();
         UIManager.instance.AtualizarBarraDeVidaInimigoAtual(vidaMaxima, vidaAtual,nomeDoInimigo);
-        SoundManager.instance.inimigoNerdLevandoDano.Play();
+        inimigoLevandoDano.Play();
 
         if (vidaAtual <= 0)
         {
