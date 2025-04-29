@@ -26,6 +26,7 @@ public class EnemyControl : MonoBehaviour
         oRigidbody2D = GetComponent<Rigidbody2D>();
         oAnimator = GetComponent<Animator>();
         oJogador = FindAnyObjectByType<ControleDoJogador>().gameObject;
+        tempoAtualEntreAtaques = tempoMaximoEntreAtaques;
     }
 
     private void Update()
@@ -108,7 +109,8 @@ public class EnemyControl : MonoBehaviour
         {
             oAnimator.SetTrigger("voadora");
         }
-        
+
+        podeAtacar = false;        
     }
 
  public void RodarAnimacaoDeDerrota()

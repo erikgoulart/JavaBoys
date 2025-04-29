@@ -14279,7 +14279,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   velocidadeDoInimigo: 2
-  tempoMaximoEntreAtaques: 3
+  tempoMaximoEntreAtaques: 2
   distanciaParaAtacar: 2
   quantidadeDeAtaquesDoInimigo: 2
 --- !u!95 &553360992
