@@ -1,0 +1,443 @@
+fileFormatVersion: 2
+guid: 1b3caed67d67b6c408f80f3ca929e758
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -287724292837474431
+    second: "Nerd-Refeito2Corre\xE7\xE3o_0"
+  - first:
+      213: 8064223724629783664
+    second: "Nerd-Refeito2Corre\xE7\xE3o_1"
+  - first:
+      213: -235621734039070612
+    second: "Nerd-Refeito2Corre\xE7\xE3o_2"
+  - first:
+      213: 1424873170071114456
+    second: "Nerd-Refeito2Corre\xE7\xE3o_3"
+  - first:
+      213: 2127606338022696327
+    second: "Nerd-Refeito2Corre\xE7\xE3o_4"
+  - first:
+      213: 9192656573584531304
+    second: "Nerd-Refeito2Corre\xE7\xE3o_5"
+  - first:
+      213: -356645584055613031
+    second: "Nerd-Refeito2Corre\xE7\xE3o_6"
+  - first:
+      213: -3028146768002989918
+    second: "Nerd-Refeito2Corre\xE7\xE3o_7"
+  - first:
+      213: 4860578775456341115
+    second: "Nerd-Refeito2Corre\xE7\xE3o_8"
+  - first:
+      213: 7603331497046693385
+    second: "Nerd-Refeito2Corre\xE7\xE3o_9"
+  - first:
+      213: -2059519332995869712
+    second: "Nerd-Refeito2Corre\xE7\xE3o_10"
+  - first:
+      213: 5387090035899342959
+    second: "Nerd-Refeito2Corre\xE7\xE3o_11"
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: "Nerd-Refeito2Corre\xE7\xE3o_0"
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 710
+        width: 230
+        height: 370
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18ffb24b74cc10cf0800000000000000
+      internalID: -287724292837474431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Nerd-Refeito2Corre\xE7\xE3o_1"
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 711
+        width: 226
+        height: 363
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 074f5df50c0e9ef60800000000000000
+      internalID: 8064223724629783664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Nerd-Refeito2Corre\xE7\xE3o_2"
+      rect:
+        serializedVersion: 2
+        x: 514
+        y: 708
+        width: 233
+        height: 370
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c685d310847eabcf0800000000000000
+      internalID: -235621734039070612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Nerd-Refeito2Corre\xE7\xE3o_3"
+      rect:
+        serializedVersion: 2
+        x: 752
+        y: 708
+        width: 249
+        height: 369
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d2d210599a26c310800000000000000
+      internalID: 1424873170071114456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Nerd-Refeito2Corre\xE7\xE3o_4"
+      rect:
+        serializedVersion: 2
+        x: 1052
+        y: 705
+        width: 232
+        height: 369
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78566bf11b6c68d10800000000000000
+      internalID: 2127606338022696327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Nerd-Refeito2Corre\xE7\xE3o_5"
+      rect:
+        serializedVersion: 2
+        x: 1368
+        y: 704
+        width: 219
+        height: 376
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86f5aaae270e29f70800000000000000
+      internalID: 9192656573584531304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Nerd-Refeito2Corre\xE7\xE3o_6"
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 318
+        width: 274
+        height: 363
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99947ab1bb0fc0bf0800000000000000
+      internalID: -356645584055613031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Nerd-Refeito2Corre\xE7\xE3o_7"
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 327
+        width: 269
+        height: 351
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a04f6dee8cd9f5d0800000000000000
+      internalID: -3028146768002989918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Nerd-Refeito2Corre\xE7\xE3o_8"
+      rect:
+        serializedVersion: 2
+        x: 607
+        y: 357
+        width: 218
+        height: 347
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7cd0e1d4ae347340800000000000000
+      internalID: 4860578775456341115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Nerd-Refeito2Corre\xE7\xE3o_9"
+      rect:
+        serializedVersion: 2
+        x: 841
+        y: 357
+        width: 209
+        height: 341
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 906d10f56b5748960800000000000000
+      internalID: 7603331497046693385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Nerd-Refeito2Corre\xE7\xE3o_10"
+      rect:
+        serializedVersion: 2
+        x: 1085
+        y: 354
+        width: 233
+        height: 333
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f35bb4141e1b63e0800000000000000
+      internalID: -2059519332995869712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Nerd-Refeito2Corre\xE7\xE3o_11"
+      rect:
+        serializedVersion: 2
+        x: 1320
+        y: 364
+        width: 360
+        height: 340
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f60a3da78d9c2ca40800000000000000
+      internalID: 5387090035899342959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable: {}
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
