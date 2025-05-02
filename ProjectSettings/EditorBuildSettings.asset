@@ -21,6 +21,9 @@ EditorBuildSettings:
     path: Assets/Scenes/Menu.unity
     guid: 0eb7084ba0b9b0b46b7703c31b3a21ef
   - enabled: 1
+    path: Assets/Scenes/Atencao1.unity
+    guid: 08b2a0a4709c4034895b04a3f6d97673
+  - enabled: 1
     path: Assets/Scenes/Cutscene.unity
     guid: 0cdba353667ae9e4f98effff45d51986
   - enabled: 1
@@ -28,7 +31,7 @@ EditorBuildSettings:
     guid: 8c9cfa26abfee488c85f1582747f6a02
   - enabled: 1
     path: Assets/Scenes/Fase02.unity
-    guid: fee37338712108b42821b7b52f90b0f4
+    guid: 2697afd66ffd43445a5b744b971f7e2d
   - enabled: 1
     path: Assets/Scenes/Cutscene2.unity
     guid: 8e71a46c8abb7974da4c9139ba7574ce
@@ -37,7 +40,13 @@ EditorBuildSettings:
     guid: 932d7649c8a044643bc138af291ac84d
   - enabled: 1
     path: Assets/Scenes/Fase03.unity
-    guid: fd074c203d7b216458c60d3edfbb1371
+    guid: d18af89d415e4f34ea3d4f4103cb1bc5
+  - enabled: 1
+    path: Assets/Scenes/Cutscene4.unity
+    guid: d67bbdf262dcbce469846c386bd1b3ff
+  - enabled: 1
+    path: Assets/Scenes/Creditos.unity
+    guid: 4b88c525b0e908e4793718a08af264da
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0

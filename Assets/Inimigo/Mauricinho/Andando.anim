@@ -34,14 +34,14 @@ AnimationClip:
       value: {fileID: 4894769665870788758, guid: ae0396115712b384abda967fb5dc5fdd, type: 3}
     - time: 1
       value: {fileID: -8815164026977651591, guid: ae0396115712b384abda967fb5dc5fdd, type: 3}
-    - time: 1.1833333
+    - time: 1.1666666
       value: {fileID: 4239576501192034445, guid: ae0396115712b384abda967fb5dc5fdd, type: 3}
     - time: 1.3333334
       value: {fileID: 8872821976766210733, guid: ae0396115712b384abda967fb5dc5fdd, type: 3}
     - time: 1.5
       value: {fileID: -1233464248010275311, guid: ae0396115712b384abda967fb5dc5fdd, type: 3}
     attribute: m_Sprite
-    path: Visual/Mauricinho1_0
+    path: Visual/Mauricinho_0
     classID: 212
     script: {fileID: 0}
     flags: 2
@@ -53,7 +53,7 @@ AnimationClip:
   m_ClipBindingConstant:
     genericBindings:
     - serializedVersion: 2
-      path: 291435828
+      path: 1994859053
       attribute: 0
       script: {fileID: 0}
       typeID: 212
