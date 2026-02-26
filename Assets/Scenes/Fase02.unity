@@ -462,15 +462,19 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2087467569128058695, guid: 349df681033ac9c4fbd1c023e24bb004, type: 3}
       propertyPath: xMaximo
-      value: 184.1
+      value: 185.6
       objectReference: {fileID: 0}
     - target: {fileID: 2087467569128058695, guid: 349df681033ac9c4fbd1c023e24bb004, type: 3}
       propertyPath: velocidadeDoJogador
       value: 5
       objectReference: {fileID: 0}
+    - target: {fileID: 2087467569128058695, guid: 349df681033ac9c4fbd1c023e24bb004, type: 3}
+      propertyPath: tempoMaximoEntreAtaques
+      value: 0.3
+      objectReference: {fileID: 0}
     - target: {fileID: 3376920270053326590, guid: 349df681033ac9c4fbd1c023e24bb004, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -7.1
+      value: -7.5
       objectReference: {fileID: 0}
     - target: {fileID: 3376920270053326590, guid: 349df681033ac9c4fbd1c023e24bb004, type: 3}
       propertyPath: m_LocalPosition.y
@@ -1112,7 +1116,7 @@ Sprite:
         format: 0
         dimension: 0
       m_DataSize: 80
-      _typelessdata: 000000bf0000003f000000000000003f0000003f00000000000000bf000000bf000000000000003f000000bf000000000000000000000000000000000000000000000000000000000000000000000000
+      _typelessdata: 000000bf0000003f000000000000003f0000003f00000000000000bf000000bf000000000000003f000000bf00000000000000000000803f0000803f0000803f00000000000000000000803f00000000
     m_Bindpose: []
     textureRect:
       serializedVersion: 2
@@ -1521,6 +1525,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 481622254867668767, guid: 6960dfe543cd02d479396e81bb48fc11, type: 3}
+      propertyPath: tempoMaximoEntreSpawns
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 481622254867668767, guid: 6960dfe543cd02d479396e81bb48fc11, type: 3}
       propertyPath: 'inimigosParaSpawnar.Array.data[0]'
       value: 
       objectReference: {fileID: 2560966150864730618, guid: 0247dc76313886e4cbc11b239a5bbdd3, type: 3}
@@ -1620,6 +1628,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 481622254867668767, guid: 6960dfe543cd02d479396e81bb48fc11, type: 3}
+      propertyPath: tempoMaximoEntreSpawns
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 481622254867668767, guid: 6960dfe543cd02d479396e81bb48fc11, type: 3}
       propertyPath: 'inimigosParaSpawnar.Array.data[0]'
       value: 
@@ -22611,7 +22623,7 @@ Transform:
   m_GameObject: {fileID: 1961050484}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 176.4, y: 0, z: 0}
+  m_LocalPosition: {x: 181.14, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -22791,6 +22803,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 481622254867668767, guid: 6960dfe543cd02d479396e81bb48fc11, type: 3}
+      propertyPath: tempoMaximoEntreSpawns
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 481622254867668767, guid: 6960dfe543cd02d479396e81bb48fc11, type: 3}
       propertyPath: 'inimigosParaSpawnar.Array.data[0]'
       value: 
       objectReference: {fileID: 2560966150864730618, guid: 0247dc76313886e4cbc11b239a5bbdd3, type: 3}
@@ -22866,6 +22882,10 @@ PrefabInstance:
     - target: {fileID: 2213044565719696248, guid: 39fb5c07ace26ca41a13296dacd964c3, type: 3}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3308953707306629306, guid: 39fb5c07ace26ca41a13296dacd964c3, type: 3}
+      propertyPath: tempoMaximoEntreSpawns
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 3308953707306629306, guid: 39fb5c07ace26ca41a13296dacd964c3, type: 3}
       propertyPath: 'inimigosParaSpawnar.Array.data[0]'

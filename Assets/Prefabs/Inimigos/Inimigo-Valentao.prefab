@@ -242,7 +242,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 28fbd1a043154ef4fb50f446df765550, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  danoDoGolpe: 2
+  danoDoGolpe: 3
   impactoSocoPrefab: {fileID: 564364627271538716}
 --- !u!1 &7574757201213770586
 GameObject:

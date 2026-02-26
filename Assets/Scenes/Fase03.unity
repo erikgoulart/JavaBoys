@@ -335,8 +335,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2c0ced2ebefe09049b0cc6aa40a1f37b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tempoParaEscurecer: 0.2
-  tempoParaCarregarNovaFase: 0.5
+  tempoParaEscurecer: 0.5
+  tempoParaCarregarNovaFase: 1
   nomeDaProximaFase: Cutscene4
 --- !u!61 &231374762
 BoxCollider2D:
@@ -429,8 +429,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2c0ced2ebefe09049b0cc6aa40a1f37b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tempoParaEscurecer: 0.2
-  tempoParaCarregarNovaFase: 0.5
+  tempoParaEscurecer: 0.5
+  tempoParaCarregarNovaFase: 1
   nomeDaProximaFase: Cutscene4
 --- !u!61 &247422656
 BoxCollider2D:
@@ -523,8 +523,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2c0ced2ebefe09049b0cc6aa40a1f37b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tempoParaEscurecer: 0.2
-  tempoParaCarregarNovaFase: 0.5
+  tempoParaEscurecer: 0.5
+  tempoParaCarregarNovaFase: 1
   nomeDaProximaFase: Cutscene4
 --- !u!61 &260153083
 BoxCollider2D:
@@ -1750,8 +1750,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2c0ced2ebefe09049b0cc6aa40a1f37b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tempoParaEscurecer: 0.2
-  tempoParaCarregarNovaFase: 0.5
+  tempoParaEscurecer: 0.5
+  tempoParaCarregarNovaFase: 1
   nomeDaProximaFase: Cutscene4
 --- !u!61 &428384489
 BoxCollider2D:
@@ -1844,8 +1844,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2c0ced2ebefe09049b0cc6aa40a1f37b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tempoParaEscurecer: 0.2
-  tempoParaCarregarNovaFase: 0.5
+  tempoParaEscurecer: 0.5
+  tempoParaCarregarNovaFase: 1
   nomeDaProximaFase: Cutscene4
 --- !u!61 &436281896
 BoxCollider2D:
@@ -1938,8 +1938,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2c0ced2ebefe09049b0cc6aa40a1f37b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tempoParaEscurecer: 0.2
-  tempoParaCarregarNovaFase: 0.5
+  tempoParaEscurecer: 0.5
+  tempoParaCarregarNovaFase: 1
   nomeDaProximaFase: Cutscene4
 --- !u!61 &441782131
 BoxCollider2D:
@@ -2275,8 +2275,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2c0ced2ebefe09049b0cc6aa40a1f37b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tempoParaEscurecer: 0.2
-  tempoParaCarregarNovaFase: 0.5
+  tempoParaEscurecer: 0.5
+  tempoParaCarregarNovaFase: 1
   nomeDaProximaFase: Cutscene4
 --- !u!61 &541522626
 BoxCollider2D:
@@ -2374,7 +2374,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   inimigoVivo: 0
   nomeDoInimigo: Johann
-  vidaMaxima: 20
+  vidaMaxima: 25
   tempoParaSumir: 5
   chanceDeDroparComida: 0
   comidasParaDropar: []
@@ -4418,8 +4418,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2c0ced2ebefe09049b0cc6aa40a1f37b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tempoParaEscurecer: 0.2
-  tempoParaCarregarNovaFase: 0.5
+  tempoParaEscurecer: 0.5
+  tempoParaCarregarNovaFase: 1
   nomeDaProximaFase: Cutscene4
 --- !u!61 &765345549
 BoxCollider2D:
@@ -4623,8 +4623,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2c0ced2ebefe09049b0cc6aa40a1f37b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tempoParaEscurecer: 0.2
-  tempoParaCarregarNovaFase: 0.5
+  tempoParaEscurecer: 0.5
+  tempoParaCarregarNovaFase: 1
   nomeDaProximaFase: Cutscene4
 --- !u!61 &805493599
 BoxCollider2D:
@@ -4717,8 +4717,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2c0ced2ebefe09049b0cc6aa40a1f37b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tempoParaEscurecer: 0.2
-  tempoParaCarregarNovaFase: 0.5
+  tempoParaEscurecer: 0.5
+  tempoParaCarregarNovaFase: 1
   nomeDaProximaFase: Cutscene4
 --- !u!61 &814721721
 BoxCollider2D:
@@ -4811,8 +4811,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2c0ced2ebefe09049b0cc6aa40a1f37b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tempoParaEscurecer: 0.2
-  tempoParaCarregarNovaFase: 0.5
+  tempoParaEscurecer: 0.5
+  tempoParaCarregarNovaFase: 1
   nomeDaProximaFase: Cutscene4
 --- !u!61 &819381614
 BoxCollider2D:
@@ -5668,8 +5668,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2c0ced2ebefe09049b0cc6aa40a1f37b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tempoParaEscurecer: 0.2
-  tempoParaCarregarNovaFase: 0.5
+  tempoParaEscurecer: 0.5
+  tempoParaCarregarNovaFase: 1
   nomeDaProximaFase: Cutscene4
 --- !u!61 &1009509276
 BoxCollider2D:
@@ -5859,8 +5859,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2c0ced2ebefe09049b0cc6aa40a1f37b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tempoParaEscurecer: 0.2
-  tempoParaCarregarNovaFase: 0.5
+  tempoParaEscurecer: 0.5
+  tempoParaCarregarNovaFase: 1
   nomeDaProximaFase: Cutscene4
 --- !u!61 &1033711806
 BoxCollider2D:
@@ -6089,8 +6089,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2c0ced2ebefe09049b0cc6aa40a1f37b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tempoParaEscurecer: 0.2
-  tempoParaCarregarNovaFase: 0.5
+  tempoParaEscurecer: 0.5
+  tempoParaCarregarNovaFase: 1
   nomeDaProximaFase: Cutscene4
 --- !u!61 &1147677171
 BoxCollider2D:
@@ -6183,8 +6183,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2c0ced2ebefe09049b0cc6aa40a1f37b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tempoParaEscurecer: 0.2
-  tempoParaCarregarNovaFase: 0.5
+  tempoParaEscurecer: 0.5
+  tempoParaCarregarNovaFase: 1
   nomeDaProximaFase: Cutscene4
 --- !u!61 &1160121447
 BoxCollider2D:
@@ -6277,8 +6277,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2c0ced2ebefe09049b0cc6aa40a1f37b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tempoParaEscurecer: 0.2
-  tempoParaCarregarNovaFase: 0.5
+  tempoParaEscurecer: 0.5
+  tempoParaCarregarNovaFase: 1
   nomeDaProximaFase: Cutscene4
 --- !u!61 &1160946364
 BoxCollider2D:
@@ -6386,7 +6386,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 28fbd1a043154ef4fb50f446df765550, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  danoDoGolpe: 3
+  danoDoGolpe: 4
   impactoSocoPrefab: {fileID: 5534877523042585332, guid: 7c5a43f01fce4d743a350844ab67eed9, type: 3}
 --- !u!61 &1261358591
 BoxCollider2D:
@@ -6464,8 +6464,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2c0ced2ebefe09049b0cc6aa40a1f37b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tempoParaEscurecer: 0.2
-  tempoParaCarregarNovaFase: 0.5
+  tempoParaEscurecer: 0.5
+  tempoParaCarregarNovaFase: 1
   nomeDaProximaFase: Cutscene4
 --- !u!61 &1264151170
 BoxCollider2D:
@@ -7215,8 +7215,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2c0ced2ebefe09049b0cc6aa40a1f37b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tempoParaEscurecer: 0.2
-  tempoParaCarregarNovaFase: 0.5
+  tempoParaEscurecer: 0.5
+  tempoParaCarregarNovaFase: 1
   nomeDaProximaFase: Cutscene4
 --- !u!61 &1311169973
 BoxCollider2D:
@@ -7578,7 +7578,7 @@ MonoBehaviour:
   yMinimo: -3.12
   yMaximo: 0.4799976
   tempoMaximoEntreAtaques: 1
-  tempoMaximoDoDano: 0.5
+  tempoMaximoDoDano: 0.3
 --- !u!70 &1469659704
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -7710,8 +7710,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2c0ced2ebefe09049b0cc6aa40a1f37b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tempoParaEscurecer: 0.2
-  tempoParaCarregarNovaFase: 0.5
+  tempoParaEscurecer: 0.5
+  tempoParaCarregarNovaFase: 1
   nomeDaProximaFase: Cutscene4
 --- !u!61 &1472386208
 BoxCollider2D:
@@ -7804,8 +7804,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2c0ced2ebefe09049b0cc6aa40a1f37b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tempoParaEscurecer: 0.2
-  tempoParaCarregarNovaFase: 0.5
+  tempoParaEscurecer: 0.5
+  tempoParaCarregarNovaFase: 1
   nomeDaProximaFase: Cutscene4
 --- !u!61 &1493609702
 BoxCollider2D:
@@ -7985,8 +7985,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2c0ced2ebefe09049b0cc6aa40a1f37b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tempoParaEscurecer: 0.2
-  tempoParaCarregarNovaFase: 0.5
+  tempoParaEscurecer: 0.5
+  tempoParaCarregarNovaFase: 1
   nomeDaProximaFase: Cutscene4
 --- !u!61 &1590247374
 BoxCollider2D:
@@ -8231,7 +8231,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 28fbd1a043154ef4fb50f446df765550, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  danoDoGolpe: 2
+  danoDoGolpe: 3
   impactoSocoPrefab: {fileID: 2789227813885850401, guid: 3a85729a05994e54a8f1a4a5445fc772, type: 3}
 --- !u!61 &1647215928
 BoxCollider2D:
@@ -8661,8 +8661,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2c0ced2ebefe09049b0cc6aa40a1f37b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tempoParaEscurecer: 0.2
-  tempoParaCarregarNovaFase: 0.5
+  tempoParaEscurecer: 0.5
+  tempoParaCarregarNovaFase: 1
   nomeDaProximaFase: Cutscene4
 --- !u!61 &1818016731
 BoxCollider2D:
@@ -8986,8 +8986,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2c0ced2ebefe09049b0cc6aa40a1f37b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tempoParaEscurecer: 0.2
-  tempoParaCarregarNovaFase: 0.5
+  tempoParaEscurecer: 0.5
+  tempoParaCarregarNovaFase: 1
   nomeDaProximaFase: Cutscene4
 --- !u!61 &1961050486
 BoxCollider2D:
@@ -11290,8 +11290,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2c0ced2ebefe09049b0cc6aa40a1f37b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tempoParaEscurecer: 0.2
-  tempoParaCarregarNovaFase: 0.5
+  tempoParaEscurecer: 0.5
+  tempoParaCarregarNovaFase: 1
   nomeDaProximaFase: Cutscene4
 --- !u!61 &1988940193
 BoxCollider2D:

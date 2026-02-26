@@ -101,11 +101,6 @@ public class ControleDoJogador : MonoBehaviour
         //Amazena a direção que o Jogador quer seguir
         inputDeMovimento = new Vector2(Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Vertical"));
 
-        //Testar Dano do Jogador
-        if(Input.GetKeyDown(KeyCode.L))
-        {
-            RodarAnimacaoDeDano();
-        }
     }
 
     private void RodarCronomentroDoDano()
